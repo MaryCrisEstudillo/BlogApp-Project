@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @watercolor_blog.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @watercolor_blog.description %>
+</p>
+
+<p>
+  <strong>Created:</strong>
+  <%= @watercolor_blog.created %>
+</p>
+
+<%= link_to 'Edit', edit_watercolor_blog_path(@watercolor_blog) %> |
+<%= link_to 'Back', watercolor_blogs_path %>

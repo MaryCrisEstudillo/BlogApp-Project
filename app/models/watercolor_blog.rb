@@ -1,0 +1,2 @@
+class WatercolorBlog < ApplicationRecord
+end
