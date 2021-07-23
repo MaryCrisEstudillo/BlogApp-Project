@@ -10,25 +10,38 @@
 *.bg{
   background-repeat:no-repeat;
   background-size:cover;
-  height:99vh;
+  height:53vw;
   width:97vw;
   z-index: 0;
   position:absolute;
   margin: -1vw 0vw 0vw 0vw;
 }
 .quotes{
-  background-color:#fff8ba;
+  background-color:#f0de8b;
   width:21vw;
   height:11vw;
   margin: -13vw 0vw 0vw 37vw;
   position:absolute;
-  padding:1.5vw 1.5vw 1.5vw 2.5vw;
+  padding:1.5vw 1.5vw 1.5vw 3vw;
   font-size:1.7vw;
   font-weight:300;
   color:#292929;
 }
 b{
   font-weight:800;
+}
+*.droplet{
+  margin:-13.2vw 0vw 0vw 34vw;
+   width:6vw;
+   heigth:6vw; 
+   position:absolute;
+}
+*.droplet2{
+  margin:39.7vw 0vw 0vw 49vw;
+  width:6vw;
+  heigth:6vw; 
+  position:absolute;
+  z-index:5;
 }
 </style>
 <img src="/bg.png" class="bg"></img>
@@ -57,7 +70,7 @@ b{
     </div>
   </div>
   <div class="quotes">If we let art flow like <b>WATER,</b> life will be filled with <b>COLORS.</b></div>
-  <img src="/drop"
+  <img class="droplet" src="/droplet.png" alt="...">
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="margin: 14vw 0vw 0vw 0vw;">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -67,6 +80,35 @@ b{
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<a href="#about" style="width:6.2vw; height:2vw; position:absolute; background-color:#c87571; color:white; border:.1vw solid white; font-size:1vw; text-decoration:none; margin:16vw 0vw 0vw 29vw; padding:.1vw 0vw 0vw .4vw;">Learn More</a>
+<br>
+<br>
+<br>
+<br>
+<h1 style="font-size:12vw; color:#EEECEC; font-weight:700; margin:27vw 0vw 0vw 50vw; position:absolute;">About</h1>
+<img class="droplet2" src="/droplet.png" alt="...">
+<section id="about" style="width:98vw; height:110vh;margin:28vw 0vw 0vw 0vw;">
+<div style="width:30vw; height:30vw; padding:3vw; font-size:1vw; color:white; text-align:justify; background-color:#B1CFF5; margin:12vw 0vw 0vw 52vw; position:absolute;">Painting with watercolor is a dance between
+pigment and water that creates images that other 
+painting techniques can’t capture. The soft edges 
+and the pigment flow create images of ethereal 
+beauty and vibrant intensity. Watercolor can produce 
+orks that resemble a faded memory, capture the 
+mystic nature of light and atmosphere, and render 
+subjects as highly detailed or veiled and impressionistic.
+The variety of subject matter is almost matched by the 
+variety of techniques that can be used to harness 
+this painting style. In this book, you will learn how to 
+begin painting with watercolor through examples and 
+exercises that will help you master the techniques. 
+Be prepared to get wet, and yes, occasionally 
+frustrated. But also prepare to be amazed at what you 
+can create as you develop your skills in a medium 
+that can be explored over a lifetime!</div>
+<img src="/brushes 2.jpeg" style="margin:-17vw 0vw 0vw 22.7vw; width:30.5vw; height:28vw;" alt="...">
+<img src="/brushes 2.jpeg" style="margin:33vw 0vw 0vw -30.7vw; width:28vw; height:19.5vw;" alt="...">
+<img src="/brushes 2.jpeg" style="margin:43.5vw 0vw 0vw 1vw; width:30vw; height:9vw;" alt="...">
+</section>
 <% if false %>
  <tbody>
     <% @watercolor_blogs.each do |watercolor_blog| %>
