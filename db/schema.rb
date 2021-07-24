@@ -34,9 +34,10 @@ ActiveRecord::Schema.define(version: 2021_07_22_035752) do
   end
 
   create_table "watercolor_blogs", force: :cascade do |t|
+    t.integer "primarykey"
     t.string "title"
     t.text "description"
-    t.datetime "created"
+    t.date "created"
     t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

@@ -64,6 +64,6 @@ class WatercolorBlogsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def watercolor_blog_params
-      params.require(:watercolor_blog).permit(:title, :description, :created)
+      params.require(:watercolor_blog).permit(:primarykey, :title, :description, :created)
     end
 end

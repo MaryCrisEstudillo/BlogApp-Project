@@ -1,5 +1,21 @@
-<h1>New Watercolor Blog</h1>
+<style>
+*.bg{
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:53vw;
+  width:97vw;
+  z-index: 0;
+  position:absolute;
+  margin: -1vw 0vw 0vw 0vw;
+}
+.form{
+    position:absolute;
+    z-index: 2;
+}
+</style>
+<img src="/bg.png" class="bg"></img>
+<div class="form">
+<h1 style="width:100vw; font-size:12vw; color:#EEECEC; font-weight:700; margin:0vw 0vw 0vw 43vw;">New topic</h1>
 
 <%= render 'form', watercolor_blog: @watercolor_blog %>
-
-<%= link_to 'Back', watercolor_blogs_path %>
+</div>
