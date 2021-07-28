@@ -1,6 +1,5 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <style>
@@ -122,24 +121,6 @@ that can be explored over a lifetime!</div>
 <img src="/brushes 2.jpeg" style="margin:33vw 0vw 0vw -30.7vw; width:28vw; height:19.5vw;" alt="...">
 <img src="/brushes 2.jpeg" style="margin:43.5vw 0vw 0vw 1vw; width:30vw; height:9vw;" alt="...">
 </section>
-<% if false%>
-<table> 
- <tbody>
-    <% @watercolor_blogs.each do |watercolor_blog| %>
-      <tr>
-        <td><%= watercolor_blog.primarykey %></td>
-        <td><%= watercolor_blog.title %></td>
-        <td><%= watercolor_blog.description %></td>
-        <td><%= watercolor_blog.created %></td>
-        <td><%= link_to 'show', watercolor_blog %></img>
-        </td>
-        <td><%= link_to 'edit', edit_watercolor_blog_path(watercolor_blog) %></td>
-        <td><%= link_to 'Destroy', watercolor_blog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-     </tr>
-    <% end %>
-  </tbody>
- </table> 
- <% end %>
  <div class="tableBg"></div>
  <h1 style="width:100vw; height:5vw; font-size:10vw; margin:0vw 0vw 0vw 3vw; font-weight:600; color:#EEECEC; text-align:center; position:absolute; z-index:6;">TOPICS</h1>
 <section class="table">
